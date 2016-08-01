@@ -1,0 +1,12 @@
+<html>
+<body>
+    <h3> Welcome to Ufril!</h3>
+    <p>You're receiving this message because you signed up for an account on Ufril. (If you didn't sign up, you can ignore this email.)</p>
+##    <p>Please copy the token below and paste or type it on the signup confirmation form.</p>
+    <p>Please go to the following url to complete your registration process.</p>
+##    <p>Token : <strong>${token}</strong></p>
+    <a href="${webUrl}signup-confirmation/${token}/${user.username}">${webUrl}signup-confirmation/${token}/${user.username}</a>
+    <p>Thank You</p>
+    <p>Ufril Team</p>
+</body>
+</html>
