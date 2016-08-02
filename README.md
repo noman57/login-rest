@@ -19,5 +19,5 @@ To run the application please follow this steps
 ### Authors
 For more info contact me 
 Md Abdulla Al Noman
-[linked in](https://www.linkedin.com/in/md-abdullah-al-noman-05284360) 
+[linkedIn](https://www.linkedin.com/in/md-abdullah-al-noman-05284360) 
 Email: noman7119@yahoo.com
