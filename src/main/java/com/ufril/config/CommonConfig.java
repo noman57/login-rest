@@ -21,8 +21,8 @@ import java.util.Properties;
 
 
 /**
- * @author moin
- *
+ * @author Noman
+ * 
  */
 @Configuration
 public class CommonConfig {

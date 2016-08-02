@@ -46,11 +46,10 @@ public class ApiSecurityConfig extends WebSecurityConfigurerAdapter {
                             "/v1/users/reset-password",
                             "/v1/users/change-password"
                     ).permitAll()
-                    .antMatchers(HttpMethod.GET, "/v1/terms/**").permitAll()
                     .antMatchers("/v1/**").authenticated().and()
                 .httpBasic()
                     .realmName("uFril API v1").and()
-                .csrf().disable(); // TODO csrf should be enable
+                .csrf().disable(); 
     }
 
     @Override

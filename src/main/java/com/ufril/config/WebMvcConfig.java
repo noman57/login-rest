@@ -5,7 +5,7 @@ import org.springframework.web.servlet.config.annotation.PathMatchConfigurer;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 /**
- * Created by moin on 12/8/15.
+ * Created by Noman
  */
 @Configuration
 public class WebMvcConfig extends WebMvcConfigurerAdapter {

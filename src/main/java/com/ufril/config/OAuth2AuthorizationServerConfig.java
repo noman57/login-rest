@@ -18,14 +18,12 @@ public class OAuth2AuthorizationServerConfig extends AuthorizationServerConfigur
 
     private static final String UFRIL_REST_RESOURCE_ID = "rest_api";
 
-//    @Autowired
-//    DataSource dataSource;
     @Autowired
     private AuthenticationManager authenticationManager;
 
     @Override
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
-        //clients.jdbc(dataSource);
+      
         clients
                 .inMemory()
                 .withClient("ufrilClient")

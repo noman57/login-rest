@@ -19,14 +19,12 @@ public class OAuth2ResourceServerConfig extends ResourceServerConfigurerAdapter 
 
     @Override
     public void configure(ResourceServerSecurityConfigurer resources) {
-        //resources.resourceId(UFRIL_REST_RESOURCE_ID).stateless(false);
         resources.resourceId(UFRIL_REST_RESOURCE_ID);
     }
 
     @Override
     public void configure(HttpSecurity http) throws Exception {
-        //http.requestMatchers().antMatchers("/oauth/v1/**").and().authorizeRequests().antMatchers("/oauth/v1/**").access("#oauth2.hasScope('read') or (!#oauth2.isOAuth() and hasRole('ROLE_USER'))");
-        http
+             http
                 .requestMatchers().antMatchers("/oauth/v1/**")
                 .and()
                 .authorizeRequests().antMatchers("/oauth/v1/**").authenticated();

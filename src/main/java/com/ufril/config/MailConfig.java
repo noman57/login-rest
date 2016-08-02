@@ -13,7 +13,7 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import java.util.Properties;
 
 /**
- * Created by moin on 12/13/15.
+ * Created by Noman 
  */
 @Configuration
 @PropertySource("classpath:mail.properties")
