@@ -11,7 +11,8 @@ To run the application please follow this steps
 
 2. updated your db credentials according to you environment in   projects application.properties file 
 
-3. Run mvn spring-boot:run 
+3. Run command # mvn spring-boot:run 
+
 
 
 [Angular Web App](https://github.com/noman57/login)  for this application is also available . You can use this  in any way as you wish.
