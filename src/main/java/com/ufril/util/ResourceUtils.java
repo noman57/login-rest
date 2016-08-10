@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Locale;
 
 /**
- * Created by moin on 12/15/15.
+ * Created by Noman
  */
 public class ResourceUtils {
 

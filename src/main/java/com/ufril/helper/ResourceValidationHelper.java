@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 import java.util.Locale;
 
 /**
- * Created by moin on 4/20/16.
+ * Created by Noman
  */
 @Component
 public class ResourceValidationHelper {

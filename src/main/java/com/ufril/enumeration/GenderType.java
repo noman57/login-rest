@@ -1,7 +1,7 @@
 package com.ufril.enumeration;
 
 /**
- * Created by Noman on 11/3/15.
+ * Created by Noman
  */
 public enum GenderType {
 

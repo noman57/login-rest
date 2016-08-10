@@ -1,7 +1,7 @@
 package com.ufril.enumeration;
 
 /**
- * Created by moin on 11/3/15.
+ * Created by Noman
  */
 public enum RoleType {
 

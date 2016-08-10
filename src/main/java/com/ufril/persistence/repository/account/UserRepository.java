@@ -7,7 +7,7 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 /**
- * @author moin
+ * Created by Noman
  */
 @Repository
 public interface UserRepository extends JpaRepository<User, String> {

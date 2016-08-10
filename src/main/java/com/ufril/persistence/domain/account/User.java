@@ -9,7 +9,7 @@ import java.util.Collection;
 import java.util.Date;
 
 /**
- * Created byvNoman
+ * Created by Noman
  */
 @Entity
 @Table(name = "users")

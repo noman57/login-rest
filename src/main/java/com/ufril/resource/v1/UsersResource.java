@@ -39,7 +39,7 @@ import java.util.List;
 import java.util.Locale;
 
 /**
- * @author moin
+ * Created by Noman
  */
 @RestController(value = "usersResourceV1")
 @RequestMapping(value = {"/v1/", "/oauth2/v1/"})

@@ -12,7 +12,7 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 /**
- * Created by moin on 11/3/15.
+ * Created by Noman
  */
 @PasswordMatches
 public class CreateUserDTO {

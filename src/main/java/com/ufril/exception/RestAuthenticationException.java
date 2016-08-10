@@ -3,7 +3,7 @@ package com.ufril.exception;
 import org.springframework.security.core.AuthenticationException;
 
 /**
- * Created by moin on 11/16/15.
+ * Created by Noman
  */
 public class RestAuthenticationException extends AuthenticationException {
 

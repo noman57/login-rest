@@ -5,9 +5,8 @@ import com.ufril.enumeration.GenderType;
 
 import java.util.Date;
 import java.util.List;
-
 /**
- * @author moin
+ * Created by Noman
  */
 public class GetProfileDTO {
 

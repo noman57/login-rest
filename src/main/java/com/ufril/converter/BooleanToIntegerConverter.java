@@ -3,7 +3,7 @@ package com.ufril.converter;
 import javax.persistence.AttributeConverter;
 
 /**
- * Created by moin on 11/3/15.
+ * Created by Noman
  */
 public class BooleanToIntegerConverter implements AttributeConverter<Boolean, Integer> {
 

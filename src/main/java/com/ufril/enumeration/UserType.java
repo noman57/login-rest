@@ -1,7 +1,7 @@
 package com.ufril.enumeration;
 
 /**
- * @author moin
+ * Created by Noman
  */
 public enum UserType {
 
